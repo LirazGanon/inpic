@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(223, 225, 229);
+}
+
+h1{
+    color: rgb(34, 137, 227);
+    font-size: 3.5rem;
+}
+
+h2{
+    color: rgb(154, 0, 0);
+    font-size: 2.5rem;
+}
+
+P{
+    font-size: 2rem;
+}
+
+div{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.q-container {
+    position: relative;
+    width: 600px;
+    height: 800px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px rgb(56, 56, 56) solid;
+}
+.btn{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 28px;
+    line-height: 60px;
+   
+    left: 33%;
+}
+.answer {
+    bottom: 50px;
+    left: 5%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(220, 209, 164)
+}
